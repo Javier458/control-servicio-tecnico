@@ -1,0 +1,30 @@
+# =====================================================
+# .gitignore para proyecto PHP + WampServer
+# =====================================================
+
+# Archivo de configuración con credenciales reales
+# (database.example.php SÍ se sube, este NO)
+/config/database.php
+
+# Carpetas de dependencias (si en el futuro usamos Composer)
+/vendor/
+
+# Archivos de entorno
+.env
+
+# Archivos temporales de WampServer / Apache
+*.log
+error_log
+
+# Archivos del sistema operativo
+Thumbs.db
+.DS_Store
+
+# Archivos del editor de código
+.vscode/
+.idea/
+*.swp
+
+# Backups de base de datos
+*.sql.bak
+/database/backups/
