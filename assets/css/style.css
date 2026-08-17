@@ -1,0 +1,15 @@
+/*
+ * Estilos propios del proyecto.
+ * Bootstrap 5 cubre la base; aquí solo van ajustes puntuales.
+ * No modificar el CSS de Bootstrap directamente.
+ */
+
+body {
+    min-height: 100vh;
+}
+
+/* Da un poco más de "aire" a las tarjetas del Dashboard */
+.card {
+    border: none;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}

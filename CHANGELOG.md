@@ -11,6 +11,10 @@ y este proyecto sigue [Versionado Semántico](https://semver.org/lang/es/).
 - Estructura inicial del repositorio (Git + GitHub).
 - Documentación técnica base en `docs/` (decisiones técnicas y roadmap).
 - Definición del stack tecnológico y alcance de la versión 1.
+- Clase de conexión PDO (`Conexion.php`) con patrón Singleton.
+    - Plantilla de configuración de base de datos (`database.example.php`).
+- Layout base de la aplicación (header, navbar, footer) con Bootstrap 5, mobile-first.
+   - Página de entrada `index.php` con placeholder del Dashboard.
 
 - Diseño y creación de la base de datos relacional (5 tablas).
    - Soporte para múltiples servicios por reparación (relación N:M vía `reparacion_servicio`).
